@@ -1,13 +1,27 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
+@import url('https://fonts.googleapis.com/css2?family=BhuTuka+Expanded+One&family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Junge&family=Rosarivo:ital@0;1&display=swap');
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "BhuTuka Expanded One", serif;
+  font-weight: 700;
+
+
+}
+body{
+  background: rgb(255, 255, 255);
+}
+.container{
+  padding-right: 5%;
+}
+.btn{
+  background: white;
+  color: black;
+  padding: 14px 25px;
+  border-radius: 30px;
+  cursor: pointer;
+  border: 0;
+  outline: 0;
 }
