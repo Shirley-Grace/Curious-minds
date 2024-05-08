@@ -5,13 +5,25 @@ function Resources() {
   return (
     <div className='resources'>
       <div className="activity">
-        <img src="images/childrenreading.jpg" alt="" srcset="" />
+        <img src="images/reading.png" alt="" srcset="" />
+        <div className="quote">
+          <img src="images/read.png" alt="" />
+          <p>Learn</p>
+        </div>
       </div>
       <div className="activity">
-        <img src="images/background2.jpg" alt="" srcset="" />
+        <img src="images/playing.png" alt="" srcset="" />
+        <div className="quote">
+          <img src="images/play.png" alt="" />
+          <p>Play</p>
+        </div>
       </div>
       <div className="activity">
-        <img src="images/childcrafting1.jpg" alt="" srcset="" />
+        <img src="images/painting.png" alt="" srcset="" />
+        <div className="quote">
+          <img src="images/draw.png" alt="" />
+          <p>Draw</p>
+        </div>
       </div>
     </div>
   )

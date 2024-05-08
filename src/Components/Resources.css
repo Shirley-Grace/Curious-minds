@@ -6,5 +6,44 @@
     justify-content: space-between;
 }
 .resources img{
-    width: ;
+    width: 100%;
+    height: 350px;
+    border-radius: 15px;
+    display: block;
+}
+.activity{
+    flex-basis: 31%;
+    position: relative;
+}
+.quote{
+    margin-top: -40px;
+    position: absolute;
+    height: 400px;
+    border-radius: 20px;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0 , 15 , 152 , 0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+}
+.quote img{
+    min-width: 150px;
+    max-width: 250px;
+    height: 200px;
+}
+.quote p{
+    font-size: 40px;
+    color: white;
+}
+.quote:hover.quote{
+    opacity: 1;
+    padding-top: 0;
 }
