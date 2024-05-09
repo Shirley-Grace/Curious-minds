@@ -27,4 +27,9 @@ nav ul li {
     padding-left: 30px;
     
 }
-
+.dark-nav{
+    background-color: mediumslateblue;
+    transition: 0.4s;
+    border-bottom-left-radius: 45px;
+    border-bottom-right-radius: 45px;
+}

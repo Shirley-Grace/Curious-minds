@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import './Navbar.css'
 import { NavLink } from 'react-router-dom'
 
 const Navbar = () => {
+  const [stick, setStick]= useState(false);
+   
+    useEffect(()=>{
+      window.addEventListener('scroll',()=>{
+        window.scrollY > 70 ? setStick(true) : setStick(false);
+       })
+    },[])
+ 
+
+
   return (
-   <nav className='container'>
+   <nav className={` ${stick? 'dark-nav': ''} `}>
     <img src="images/cmlogo.png" alt="logo" srcset="" />
     <ul>
         <li>Home</li>

@@ -1,0 +1,19 @@
+.about img{
+    width: 250px;
+}
+.about{
+    margin: 100px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+
+}
+.about h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+
+}
+.about p{
+    font-size:25px ;
+}
