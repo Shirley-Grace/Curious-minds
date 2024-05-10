@@ -3,6 +3,7 @@ import About from './Components/About';
 import Intro from './Components/Intro';
 import Navbar from './Components/Navbar';
 import Resources from './Components/Resources';
+import Testimonials from './Components/Testimonials';
 import Title from './Components/Title';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
 
     <About/>
     <Title subTitle='Testimonials' title='What Clients Think of Us'/>
-
+    <Testimonials/>
     </div>
     </div>
   );

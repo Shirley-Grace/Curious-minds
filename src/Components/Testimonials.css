@@ -1,0 +1,49 @@
+.testimonials{
+    margin: 50px auto;
+    padding: 0 50px;
+    position: relative;
+    margin-top: 20px;
+}
+.next{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    padding: 15px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.prev{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    padding: 15px;
+    width: 75px;
+    height: 75px;
+    cursor: pointer;
+}
+.carousel{
+    overflow: hidden;
+
+}
+.carousel ul{
+    display: flex;
+    width: 210%;
+    overflow-x: hidden;
+    transition: 0.5%;
+}
+.carousel ul li{
+    color: aliceblue;
+    list-style: none;
+    padding:40px;
+    width: 50%;
+    border: 1px solid white;
+    border-radius: 45px;
+}
+.carousel img{
+    margin: 15px;
+    width: 100%;
+    border-radius: 25px;}
+.name{
+    margin: 15px 0;
+}
