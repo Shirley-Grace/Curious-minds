@@ -37,10 +37,11 @@ const previous = () => {
                     <h3>johnson family</h3>
                     <span>paid plan</span>
                   </div>
-                  <div>
+                  <div className='say'>
                     <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
                     jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
                     skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
+
                     </p>
                   </div>
                 </div>
@@ -55,7 +56,7 @@ const previous = () => {
                     <h3>johnson family</h3>
                     <span>paid plan</span>
                   </div>
-                  <div>
+                  <div className='say'>
                     <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
                     jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
                     skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
@@ -65,23 +66,7 @@ const previous = () => {
               </div>
             </li>
 
-            <li>
-              <div className="slide">
-                <div className="userinfo">
-                  <img src="images/family3.jpg" alt=""  />
-                  <div className='name'>
-                    <h3>johnson family</h3>
-                    <span>paid plan</span>
-                  </div>
-                  <div>
-                    <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
-                    jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
-                    skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
+        
 
             <li>
               <div className="slide">
@@ -91,7 +76,7 @@ const previous = () => {
                     <h3>johnson family</h3>
                     <span>paid plan</span>
                   </div>
-                  <div>
+                  <div className='say'>
                     <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
                     jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
                     skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
@@ -110,7 +95,7 @@ const previous = () => {
                     <h3>johnson family</h3>
                     <span>paid plan</span>
                   </div>
-                  <div>
+                  <div className='say'>
                     <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
                     jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
                     skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
@@ -129,7 +114,7 @@ const previous = () => {
                     <h3>johnson family</h3>
                     <span>paid plan</span>
                   </div>
-                  <div>
+                  <div className='say'>
                     <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
                     jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
                     skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
@@ -148,7 +133,7 @@ const previous = () => {
                     <h3>johnson family</h3>
                     <span>paid plan</span>
                   </div>
-                  <div>
+                  <div className='say'>
                     <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
                     jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
                     skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .

@@ -28,22 +28,31 @@
 }
 .carousel ul{
     display: flex;
-    width: 210%;
+    width: 300%;
     overflow-x: hidden;
     transition: 0.5%;
+    transform: translateX(-0%);
 }
 .carousel ul li{
-    color: aliceblue;
     list-style: none;
-    padding:40px;
-    width: 50%;
-    border: 1px solid white;
-    border-radius: 45px;
+    padding: 30px;
+    
 }
 .carousel img{
     margin: 15px;
-    width: 100%;
+    width: 90%;
     border-radius: 25px;}
 .name{
-    margin: 15px 0;
+    margin: 15px 20px;
+}
+.slide{
+    background-color:indigo ;
+    border-radius: 25px; 
+    line-height: 1.3;
+    
+}
+.say{
+    color: rgb(243, 194, 231);
+    margin: 15px 20px ;
+
 }

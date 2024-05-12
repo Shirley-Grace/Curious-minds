@@ -1,5 +1,6 @@
 import './App.css';
 import About from './Components/About';
+import { Contact } from './Components/Contact';
 import Intro from './Components/Intro';
 import Navbar from './Components/Navbar';
 import Resources from './Components/Resources';
@@ -20,6 +21,8 @@ function App() {
     <About/>
     <Title subTitle='Testimonials' title='What Clients Think of Us'/>
     <Testimonials/>
+    <Title subTitle='Contact Us' title='Get in Touch'/>
+    <Contact/>
     </div>
     </div>
   );
