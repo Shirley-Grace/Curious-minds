@@ -24,8 +24,8 @@ const previous = () => {
 
   return (
     <div className='testimonials'>
-        <img src="images/left-right.png" alt="" className='prev' onClick={previous}/>
-        <img src="images/left-right.png" alt="" className='next' onClick={next}/>
+        <img src="images/previous.png" alt="" className='prev' onClick={previous}/>
+        <img src="images/next.png" alt="" className='next' onClick={next}/>
         <div className="carousel">
           <ul ref={slider}>
 
