@@ -3,6 +3,10 @@ import './Navbar.css'
 import { Link } from 'react-scroll';
 
 const Navbar = () => {
+
+
+
+
   const [stick, setStick]= useState(false);
    
     useEffect(()=>{
@@ -26,7 +30,7 @@ const Navbar = () => {
         <li><Link to='intro' smooth={true} offset={0} duration={500}>Home</Link></li>
         <li><Link to='resources' smooth={true} offset={-370} duration={500}>Resources</Link></li>
         <li><Link to='about' smooth={true} offset={-400} duration={500}>About us</Link></li>
-        <li><Link to='plans'>Plans</Link></li>
+        <li><Link to='/plan'>Plans</Link></li>
 
 
         <li><Link to='contact' className='btn'smooth={true} offset={-370} duration={-150}>Contact Us</Link></li>

@@ -9,14 +9,20 @@ const Testimonials = () => {
 
 const next = () => {
   if (tx > 50) {
-    tx -= 25;
+    tx -= 50;
    
   }
-  slider.current.style.transform = `translateX(${tx}%)`
+  slider.current.style.transform = `translateX(${tx}%)`;
 }
 
-const previous = () => {
 
+
+const previous = () => {
+  if (tx < 50) {
+    tx += 50;
+   
+  }
+  slider.current.style.transform = `translateX(${tx}%)`;
 }
 
 
@@ -26,9 +32,13 @@ const previous = () => {
     <div className='testimonials'>
         <img src="images/previous.png" alt="" className='prev' onClick={previous}/>
         <img src="images/next.png" alt="" className='next' onClick={next}/>
-        <div className="carousel">
-          <ul ref={slider}>
 
+
+        <div className="carousel">
+
+
+
+          <ul ref={slider}>
             <li>
               <div className="slide">
                 <div className="userinfo">
