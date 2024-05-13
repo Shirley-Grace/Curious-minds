@@ -17,3 +17,24 @@
 .about p{
     font-size:25px ;
 }
+/* media */
+@media(max-width:1050px){
+.about{
+    flex-direction: column;
+}
+.about p{
+    margin-bottom: 50px;
+}
+.about h2{
+    margin-top: 20px;
+}
+
+}
+
+
+
+
+
+
+
+

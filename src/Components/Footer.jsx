@@ -9,7 +9,7 @@ export const Footer = () => {
             <img className='footer-logo'src="images/cmlogo.png" alt="" srcset="" />
 
         <p> 2024 Curious Minds</p>
-        </div>
+        </div >
         <ul className='socials'>
           
             <li><img src="images/instagram.png" alt="" className='icon'/>Instagram</li>

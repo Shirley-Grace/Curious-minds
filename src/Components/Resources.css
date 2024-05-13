@@ -47,3 +47,32 @@
     opacity: 1;
     padding-top: 0;
 }
+
+/* media */
+
+@media(max-width:1050px){
+ .resources{
+    flex-direction: column;
+    margin-top: 100px;
+ }
+ .activity{
+    flex-basis: 100%;
+    margin-top: 70px ;
+ }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

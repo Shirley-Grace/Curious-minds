@@ -34,3 +34,23 @@
    padding-right: 2%;
    
 }
+/* media */
+@media(max-width: 850px){
+    .introtext h1{
+        font-size: 50px;
+    }
+
+
+}
+@media(max-width: 650px){
+    .introtext h1{
+        font-size: 45px;
+        margin: auto;
+    }
+
+
+}
+
+
+
+

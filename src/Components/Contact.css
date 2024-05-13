@@ -18,6 +18,9 @@
     font-size: 25px;
     
 }
+.contact-col label{
+    color: black;
+}
 .contact-col p{
     max-width: 450px;
     font-size: 20px;
@@ -57,4 +60,17 @@
     margin-left: 2%;
 }
 
+
+
+/* media */
+@media(max-width:900px){
+
+.contact{
+    display: block;
+}
+.contact-col{
+    margin-top: 20px;
+}
+
+}
 

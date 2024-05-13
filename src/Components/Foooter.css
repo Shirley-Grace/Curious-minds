@@ -1,14 +1,13 @@
 .footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     background-color: mediumslateblue;
-    color: aliceblue;
+    /* color: aliceblue; */
     border-top-left-radius: 45px;
     border-top-right-radius: 45px;
-    padding: 20px 0 0 0;
-    width: 100%;
-    padding-bottom: 25px;
+    width: 100% ;
+    /* padding-bottom: 25px; */
 
 }
 .footer-logo{
@@ -23,6 +22,7 @@
 
 .right{
     display: inline-block;
+    margin-right: 5%;
  
 }
 .links li{
@@ -33,6 +33,7 @@
 }
 label{
     font-size: 23px;
+    color: aliceblue;
 }
 .socials li{
     margin-top: 10px;
@@ -43,6 +44,33 @@ label{
 .socials{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-right: 5%;
 
    
 }
+
+/* media */
+@media(max-width:1050px){
+    .socials{
+        display: block;
+
+    }
+    .socials li{
+        margin-left: 10px;
+    }
+.socials img{
+ width: 30px;
+ height: 26px;
+
+}
+
+
+}
+
+
+
+
+
+
+
+

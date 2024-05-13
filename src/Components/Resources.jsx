@@ -4,7 +4,7 @@ import './Resources.css';
 function Resources() {
   return (
     <div className='resources'>
-      <div className="activity">
+      <div className="activity" >
         <img src="images/reading.png" alt="" srcset="" />
         <div className="quote">
           <img src="images/read.png" alt="" />

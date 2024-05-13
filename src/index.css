@@ -13,10 +13,7 @@
 body{
   background: rgb(255, 255, 255);
 }
-.container{
-  margin-right: 20px;
-  margin-left: 20px;
-}
+
 .btn{
   background: white;
   color: black;
@@ -33,3 +30,14 @@ body{
   height: 40px;
   margin: 5px 15px 0 0;
 }
+@media(max-width:1700px){
+  .container{
+    padding: 0 3% 0 3%;
+  }
+
+
+}
+
+
+
+

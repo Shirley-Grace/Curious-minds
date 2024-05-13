@@ -25,6 +25,7 @@ nav ul li {
     margin:  40px 10px 0px 50px;
     font-size: 1.5rem;
     padding-left: 30px;
+    cursor: pointer;
     
 }
 .dark-nav{
@@ -33,3 +34,57 @@ nav ul li {
     border-bottom-left-radius: 45px;
     border-bottom-right-radius: 45px;
 }
+.menu-icon{
+    top: 3%;
+    width: 75px;
+    height: 75px;
+    position: absolute;
+    top :45%;
+    right:5%;
+    padding: 3px;
+    display: none;
+
+}
+
+/* media */
+@media(max-width:1650px){
+img{
+    width: 500px;
+
+}
+nav ul li{
+    margin: 40px 5Px 0 40px;
+}
+
+}
+@media(max-width:1585px){
+    img{
+        width: 600px;
+    
+    }
+    nav ul {
+        position: fixed;
+        top: 0;
+        right: 0;
+        background-color: mediumslateblue;
+        z-index: -1;
+        width: 300px;
+        padding-top: 70px;
+        transition: 0.5s;
+        height: 450px;
+        border-bottom-left-radius: 45px;
+        
+
+    }
+    nav ul li{
+        display: block;
+    }
+    .menu-icon{
+        display: block;
+        cursor: pointer;
+    }
+    .hide-menu{
+        right: -300px;
+    }
+    
+    }
