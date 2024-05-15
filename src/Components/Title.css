@@ -11,3 +11,17 @@
     margin-top: 5px;
     text-transform: none;
 }
+
+
+
+/* media */
+@media(max-width:850px){
+    .title p{
+        font-size: 28px;
+    }
+    .title h2{
+        font-size: 25px;
+        padding: 1% 5%;
+    }
+
+}

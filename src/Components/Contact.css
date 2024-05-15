@@ -49,27 +49,53 @@
     padding: 15px;
     border: 0;
     border-radius: 30px;
-    margin:15px 0;
+    margin:25px 0;
     resize: none;
 
+}
+.socials{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
 }
 .contact button{
     border: 1px solid black;
     height: 40px;
     justify-content: center;
-    margin-left: 2%;
+    background-color: rgb(220, 136, 241);
+    margin-left: 75%;
+}
+h4{
+    color: mediumslateblue;
+    text-decoration: underline;
 }
 
 
 
 /* media */
-@media(max-width:900px){
+@media(max-width:850px){
 
 .contact{
     display: block;
+    margin-top: 0;
+    font-size: 14px;
 }
-.contact-col{
-    margin-top: 20px;
+.contact-col ul li{
+    margin-top: 0;
+}
+.contact button{
+    margin-left: 50%;
+}
+.contact img{
+    width: 15%;
+    height: 25px;
+}
+.contact ul li img{
+    width: 40px;
+    height: 35px;
+
+}
+.socials{
+    column-gap: 15px;
 }
 
 }

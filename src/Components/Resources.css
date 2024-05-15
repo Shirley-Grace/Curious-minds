@@ -64,6 +64,18 @@
 
 
 
+@media(max-width:850px){
+    .resources{
+        flex-direction: column;
+        margin-top: 30px;
+     }
+     .resources img{
+        width: 210px;
+        height: 200px;
+     }
+}
+
+
 
 
 

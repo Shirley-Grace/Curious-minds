@@ -23,7 +23,7 @@ const Navbar = () => {
 
   return (
    <nav className={` ${stick? 'dark-nav': ''} `}>
-    <img src="images/cmlogo.png" alt="logo" srcset="" />
+    <img src="images/cmlogo.png" alt="logo" srcset="" className='logo'/>
 
     <ul className={menu?'' : 'hide-menu'}>
 

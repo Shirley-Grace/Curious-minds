@@ -32,17 +32,24 @@ export const Contact = () => {
   return (
     <div className='contact'>
         <div className="contact-col">
-            <h3>Send us a message</h3>
-            <p>
-                huytg ytg j k j cvxdsert cdfrtg mkjuyh xcdfrt mjkuiy
-                nmjkuyht cdf c fgyuhj jhf tyu jhcv 
-            </p>
+            
             <ul>
+              <h4>Email</h4>
                 <li> <img src="images/email.png" className="icon"alt="" />info@curiousminds.org</li>
+              <h4>Phone Number</h4>
                 <li> <img src="images/phone.png" className="icon"alt="" /> +254(0)-778-679-100</li>
+              <h4>Location</h4>
                 <li> <img src="images/location.png" className="icon"alt="" />233 Owashika Road,Lavingon <br />
                 Nairobi,Kenya </li>
             </ul>
+            <h4>Socials</h4>
+            <ul className='socials'>
+          
+            <li><img src="images/instagram.png" alt="" className='icon'/>Instagram</li>
+            <li><img src="images/facebook.png" alt="" className='icon'/>Instagram</li>
+            <li><img src="images/pinterest.png" alt="" className='icon'/>Instagram</li>
+            <li><img src="images/twitter.png" alt=""className='icon' />Instagram</li>
+        </ul>
         </div>
         <div className="contact-col">
           <form onSubmit={onSubmit} >

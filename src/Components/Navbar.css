@@ -57,11 +57,8 @@ nav ul li{
 }
 
 }
-@media(max-width:1585px){
-    img{
-        width: 600px;
-    
-    }
+@media(max-width:1500px){
+
     nav ul {
         position: fixed;
         top: 0;
@@ -81,10 +78,33 @@ nav ul li{
     }
     .menu-icon{
         display: block;
-        cursor: pointer;
     }
     .hide-menu{
         right: -300px;
     }
     
     }
+
+    @media(max-width:850px){
+    .menu-icon{
+        width: 50px;
+        cursor: pointer;
+        height: 50px;
+        position: absolute;
+        top: 75%;
+    }
+   .logo{
+    width: 250px;
+    height: 130px;
+    margin-left: -150px;
+   }
+    
+    
+    
+    
+    
+    
+    }
+
+
+
