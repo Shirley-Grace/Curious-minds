@@ -45,10 +45,10 @@ export const Contact = () => {
             <h4>Socials</h4>
             <ul className='socials'>
           
-            <li><img src="images/instagram.png" alt="" className='icon'/>Instagram</li>
-            <li><img src="images/facebook.png" alt="" className='icon'/>Instagram</li>
-            <li><img src="images/pinterest.png" alt="" className='icon'/>Instagram</li>
-            <li><img src="images/twitter.png" alt=""className='icon' />Instagram</li>
+            <li><a href="https://www.instagram.com/"><img src="images/instagram.png" alt="" className='icon'/></a>Instagram</li>
+            <li><a href="https://www.facebook.com/"><img src="images/facebook.png" alt="" className='icon'/></a>Facebook</li>
+            <li><a href="https://www.twitter.com/"><img src="images/twitter.png" alt="" className='icon'/></a>Twitter</li>
+            <li><a href="https://www.pinterest.com/"><img src="images/pinterest.png" alt="" className='icon'/></a>Pinterest</li>
         </ul>
         </div>
         <div className="contact-col">

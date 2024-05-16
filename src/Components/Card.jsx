@@ -1,10 +1,8 @@
 import React from 'react'
 
-export const Drawing = () => {
+export const Card = () => {
   return (
-
-    <div className="page">
-
+    <div>
 
         
     </div>

@@ -1,10 +1,8 @@
 import React from 'react'
-import Navbar from './Navbar'
 
 export const Plan = () => {
   return (
     <div className='details'>
-        <Navbar/>
        <div className="basic">
        <h2>Your Selected Plan</h2>
         <p>This plan offers the following items</p>
