@@ -1,4 +1,5 @@
 import React from 'react'
+import './Plan.css'
 
 export const Plan = () => {
   return (
@@ -14,8 +15,8 @@ export const Plan = () => {
         </ul>
         <div className="packages">
             <h2>Basic Plan</h2>
-            <b>Free</b>
-            <span>per month</span>
+            <b>Free </b>
+            <span> per month</span>
        </div>
 
             
@@ -33,9 +34,10 @@ export const Plan = () => {
         </ul>
         <div className="packages">
             <h2>Pro Plan</h2>
-            <b>10$</b>
+            <b>10$ </b>
             <span>per month</span>
-            <button className='btn'>Pay Here</button>
+
+            {/* <button className='btn'>Pay Here</button> */}
        </div>
 
             
@@ -47,15 +49,15 @@ export const Plan = () => {
             <li>All games</li>
             <li>All colouring pages</li>
             <li>Unlimited videos per day</li>
+            <li>Mobile Tutor for unlimited sessions</li>
             <li>upto 5 device allowed</li>
             <li>Unlimited Dowmload</li>
-            <li>Mobile Tutor for unlimited sessions</li>
         </ul>
         <div className="packages">
-            <h2>Basic Plan</h2>
-            <b>Free</b>
+            <h2>Premium Plan</h2>
+            <b>20$ </b>
             <span>per month</span>
-            <button className='btn'>Pay Here</button>
+            {/* <button className='btn'>Pay Here</button> */}
 
        </div>
 

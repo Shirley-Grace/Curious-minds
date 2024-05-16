@@ -1,0 +1,8 @@
+.details{
+    border-radius: 35px 35px;
+    border: 1px solid;
+    display: grid;
+    align-items: center;
+    width:200px;
+    height:350px;
+}

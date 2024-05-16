@@ -1,161 +1,23 @@
-import React, { useRef } from 'react'
+import React from 'react'
 import './Testimonials.css'
+import { Card } from './Card'
 
 const Testimonials = () => {
-
-
-   const slider = useRef();
-   let tx = 0;
-
-const next = () => {
-  if (tx > 50) {
-    tx -= 50;
-   
-  }
-  slider.current.style.transform = `translateX(${tx}%)`;
-}
-
-
-
-const previous = () => {
-  if (tx < 50) {
-    tx += 50;
-   
-  }
-  slider.current.style.transform = `translateX(${tx}%)`;
-}
-
-
-
-
   return (
     <div className='testimonials'>
-        <img src="images/previous.png" alt="" className='prev' onClick={previous}/>
-        <img src="images/next.png" alt="" className='next' onClick={next}/>
+          <img src="images/previous.png" alt="" className='prev'/>
+        <img src="images/next.png" alt="" className='next' />
 
-
-        <div className="carousel">
-
-
-
-          <ul ref={slider}>
-            <li>
-              <div className="slide">
-                <div className="userinfo">
-                  <img src="images/family1.jpg" alt=""  />
-                  <div className='name'>
-                    <h3>johnson family</h3>
-                    <span>paid plan</span>
-                  </div>
-                  <div className='say'>
-                    <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
-                    jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
-                    skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
-
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-            <li>
-              <div className="slide">
-                <div className="userinfo">
-                  <img src="images/family6.jpg" alt=""  />
-                  <div className='name'>
-                    <h3>johnson family</h3>
-                    <span>paid plan</span>
-                  </div>
-                  <div className='say'>
-                    <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
-                    jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
-                    skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-        
-
-            <li>
-              <div className="slide">
-                <div className="userinfo">
-                  <img src="images/family4.jpg" alt=""  />
-                  <div className='name'>
-                    <h3>johnson family</h3>
-                    <span>paid plan</span>
-                  </div>
-                  <div className='say'>
-                    <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
-                    jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
-                    skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-
-            <li>
-              <div className="slide">
-                <div className="userinfo">
-                  <img src="images/family5.jpg" alt=""  />
-                  <div className='name'>
-                    <h3>johnson family</h3>
-                    <span>paid plan</span>
-                  </div>
-                  <div className='say'>
-                    <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
-                    jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
-                    skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-
-            <li>
-              <div className="slide">
-                <div className="userinfo">
-                  <img src="images/kids1.jpg" alt=""  />
-                  <div className='name'>
-                    <h3>johnson family</h3>
-                    <span>paid plan</span>
-                  </div>
-                  <div className='say'>
-                    <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
-                    jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
-                    skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-
-            <li>
-              <div className="slide">
-                <div className="userinfo">
-                  <img src="images/kids2.jpg" alt=""  />
-                  <div className='name'>
-                    <h3>johnson family</h3>
-                    <span>paid plan</span>
-                  </div>
-                  <div className='say'>
-                    <p>we have been having  <br />a wonderful time using curious <br /> minds with our 3yr old son <br />
-                    jsdcknsduncsd ckjdcns dck <br />sdc sdkc fi rfieknd sdkcmlsdk <br />
-                    skei soiefi kdfjvd oirfnw <br /> opepjqn oqenc oaka zolqwijdna dposkdc .
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </li>
-
-
-          </ul>
+        <div className="list">
+          <Card  name="Johnson Family" sub="Paid Plan"  say='this cnjdndc ujndc wdeijd woi weijs wejm wedkjm wesjid wei oidm ao slie fios;v druhe mckdkir'/>
+          <Card  name="Johnson Family" sub="Paid Plan"  say='this cnjdndc ujndc wdeijd woi weijs wejm wedkjm wesjid wei oidm ao slie fios;v druhe mckdkir'/>
+          <Card  name="Johnson Family" sub="Paid Plan"  say='this cnjdndc ujndc wdeijd woi weijs wejm wedkjm wesjid wei oidm ao slie fios;v druhe mckdkir'/>
+          <Card  name="Johnson Family" sub="Paid Plan"  say='this cnjdndc ujndc wdeijd woi weijs wejm wedkjm wesjid wei oidm ao slie fios;v druhe mckdkir'/>
+          <Card  name="Johnson Family" sub="Paid Plan"  say='this cnjdndc ujndc wdeijd woi weijs wejm wedkjm wesjid wei oidm ao slie fios;v druhe mckdkir'/>
+          <Card  name="Johnson Family" sub="Paid Plan"  say='this cnjdndc ujndc wdeijd woi weijs wejm wedkjm wesjid wei oidm ao slie fios;v druhe mckdkir'/>
+          <Card  name="Johnson Family" sub="Paid Plan"  say='this cnjdndc ujndc wdeijd woi weijs wejm wedkjm wesjid wei oidm ao slie fios;v druhe mckdkir'/>
         </div>
+
     </div>
   )
 }
