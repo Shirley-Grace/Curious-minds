@@ -30,10 +30,10 @@ const Navbar = () => {
         <li><Link to='intro' smooth={true} offset={0} duration={500}>Home</Link></li>
         <li><Link to='resources' smooth={true} offset={-370} duration={500}>Resources</Link></li>
         <li><Link to='about' smooth={true} offset={-400} duration={500}>About us</Link></li>
-        <li><Link to='details' smooth={true} offset={-350} duration={500}>Plans</Link></li>
+        <li><Link to='plans' smooth={true} offset={-370} duration={500}>Plans</Link></li>
 
 
-        <li><Link to='contact' className='btn'smooth={true} offset={-370} duration={-150}>Contact Us</Link></li>
+        <li><Link to='contact' className='btn'smooth={true} offset={-350} duration={-150}>Contact Us</Link></li>
 
     </ul>
     <img src="images/menu.png" onClick={toggleMenu} className='menu-icon' alt="" />

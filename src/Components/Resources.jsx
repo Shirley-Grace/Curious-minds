@@ -1,7 +1,9 @@
 import React from 'react'
 import './Resources.css';
+import { Link } from 'react-router-dom';
 
 function Resources() {
+ 
   return (
     <div className='resources'>
       <div className="activity" >
@@ -21,7 +23,7 @@ function Resources() {
       <div className="activity">
         <img src="images/painting.png" alt="" srcset="" />
         <div className="quote">
-          <img src="images/draw.png" alt="" />
+          <Link to='Draw'><img src="images/draw.png" alt=""/></Link>
           <p>Draw</p>
         </div>
       </div>

@@ -3,7 +3,7 @@ import './Plan.css'
 
 export const Plan = () => {
   return (
-    <div className='details'>
+    <div className='plans'>
        <div className="basic">
        <h2>Your Selected Plan</h2>
         <p>This plan offers the following items</p>

@@ -1,8 +1,5 @@
-.testimonials{
+.testimonial{
     margin: 50px auto;
-    padding: 0 50px;
-    position: relative;
-    margin-top: 20px;
 }
 .next{
     position: absolute;
@@ -23,5 +20,14 @@
     cursor: pointer;
 }
 .list{
-    display: flex;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin: 75px auto;
+    justify-items: center;
+}
+.pic{
+    width: 245px;
+    height: 250px;
+    border-top-left-radius: 45px;
+    border: 10px solid white;
 }

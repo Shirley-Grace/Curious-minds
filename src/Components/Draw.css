@@ -1,0 +1,9 @@
+.board{
+    width: 90%;
+    height: 100%;
+    border: 9px solid mediumpurple;
+    margin: 2% ;
+    border-radius: 3px 45px;
+}
+
+

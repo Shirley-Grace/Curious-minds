@@ -5,6 +5,7 @@ import { Footer } from './Components/Footer';
 import Intro from './Components/Intro';
 import Navbar from './Components/Navbar';
 import { Plan } from './Components/Plan';
+import { Play } from './Components/Play';
 import Resources from './Components/Resources';
 import Testimonials from './Components/Testimonials';
 import Title from './Components/Title';
@@ -25,8 +26,11 @@ function App() {
         <Title subTitle='Resources' title='What We Offer' />
         <Resources />
 
+
         <Title subTitle='About us' title='Who Are We' />
         <About />
+
+        <Play/>
 
         <Title subTitle='Testimonials' title='What Clients Think of Us' />
         <Testimonials />
