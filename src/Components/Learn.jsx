@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react'
 
 import './Learn.css'
 import { useRef } from 'react';
+import Title from './Title';
 
 function Learn() {
     const [mouseData, setMouseData] = useState({ x: 0, y: 0 });
@@ -40,52 +41,54 @@ function Learn() {
         // Set the line cap to round
         ctx.lineCap = "round";
         ctx.stroke();
-        
+
     };
     return (
         <div className="learn">
+            <Title subTitle='Let Us Learn ' title='letters and numbers' />
+
+            <section className="drawing-board">
+                <canvas className=''
+                    ref={canvasRef}
+                    onMouseEnter={(e) => SetPos(e)}
+                    onMouseMove={(e) => SetPos(e)}
+                    onMouseDown={(e) => SetPos(e)}
+                    onMouseMove={(e) => Draw(e)}
+                    onTouchStart={(e) => SetPos(e)}
+                    onTouchMove={(e) => SetPos(e)}
+                    onTouchMove={(e) => Draw(e)}
+                    onTouchEnd={(e) => SetPos(e)}
+
+                ></canvas>
+            </section>
+
             <section className="tools">
-                    <label className='title' >Tools</label>
-                    <ul className="options">
-                        <li className="option">
-                            <input name="" className='' id="size"
-                             type="range"
-                             value={size}
-                             max={40}
-                             onChange={(e) => {
-                                 setSize(e.target.value);
-                             }} />
-                        </li>
-                        <li className="option">
-                            <img src="images/paint.png" alt="circle" srcset="" 
-                            />
-                            <span>Brush</span>
-                        </li>
-                        <li className="option">
-                            <img src="images/eraser.png" alt="circle" srcset="" />
-                            <span>Eraser</span>
-                        </li>
 
-                    </ul>
 
-                <div className="pallette">
-                    <label className='title' >Colors</label>
+                <label className='title' >Size</label>
+                <input name="" className='' id="size"
+                    type="range"
+                    value={size}
+                    max={40}
+                    onChange={(e) => {
+                        setSize(e.target.value);
+                    }} />
 
-                    <input type="color" 
-                      value={color}
-                      onChange={(e) => {
-                          setColor(e.target.value);
-                      }}
-                      name="color"
-                       className="picker" 
-                       id="colors" />
+                <label className='title' >Colors</label>
 
-            
-                </div>
+                <input type="color"
+                    value={color}
+                    onChange={(e) => {
+                        setColor(e.target.value);
+                    }}
+                    name="color"
+                    className="picker"
+                />
 
-                <div className="buttons">
-                    <button type="button" className='btn'
-                     onClick={() => {
+
+
+                <button type="button" className='btn'
+                    onClick={() => {
                         const ctx = canvasCTX;
                         ctx.clearRect(
                             0,
@@ -94,24 +97,10 @@ function Learn() {
                             canvasRef.current.height
                         );
                     }}>CLEAR</button>
-                </div>
 
             </section>
 
-            <section className="drawing-board">
-                <canvas className=''
-                 ref={canvasRef}
-                 onMouseEnter={(e) => SetPos(e)}
-                 onMouseMove={(e) => SetPos(e)}
-                 onMouseDown={(e) => SetPos(e)}
-                 onMouseMove={(e) => Draw(e)}
-                 onTouchStart={(e) => SetPos(e)}
-                 onTouchMove={(e) => SetPos(e)}
-                 onTouchMove={(e) => Draw(e)}
-                 onTouchEnd={(e) => SetPos(e)}
-                     
-                ></canvas>
-            </section>
+
         </div>
 
 

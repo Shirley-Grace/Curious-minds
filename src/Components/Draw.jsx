@@ -43,7 +43,7 @@ function Draw() {
     return (
         <div className="board">
             <canvas
-            className="canvas"
+                className="canvas"
                 ref={canvasRef}
                 onMouseEnter={(e) => SetPos(e)}
                 onMouseMove={(e) => SetPos(e)}
@@ -56,26 +56,31 @@ function Draw() {
             ></canvas>
 
             <div
-                className="controls"
-             
-            >
-                <input
+                className="controls">
+                <label className='title' >Size</label>
+
+                <input name="" className='' id="size"
                     type="range"
                     value={size}
                     max={40}
                     onChange={(e) => {
                         setSize(e.target.value);
-                    }}
-                />
-                <input
-                    type="color"
+                    }} />
+
+                <label className='title' >Colors</label>
+
+                <input type="color"
                     value={color}
                     onChange={(e) => {
                         setColor(e.target.value);
                     }}
+                    name="color"
+                    className="picker"
                 />
-                <button
-                className="btn"
+
+
+
+                <button type="button" className='btn'
                     onClick={() => {
                         const ctx = canvasCTX;
                         ctx.clearRect(
@@ -84,10 +89,7 @@ function Draw() {
                             canvasRef.current.width,
                             canvasRef.current.height
                         );
-                    }}
-                >
-                    Clear
-                </button>
+                    }}>CLEAR</button>
             </div>
         </div>
     );
