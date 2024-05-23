@@ -1,16 +1,16 @@
 
 .picker{
-    width: 70px;
-    height: 100px;
+    width: 100px;
+    height: 60px;
     cursor: pointer;
     border: 0;
+    margin:10px 20px ;
 }
 .learn{
     display: block;
 }
 .tools{
     width: 40%;
-    background-color: rgb(250, 201, 242);
     border-radius: 5px 45px 5px 5px;
     margin-left: 3%;
     display: flex;
