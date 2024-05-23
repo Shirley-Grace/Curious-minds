@@ -43,7 +43,12 @@ function Draw() {
 
     return (
         <div className="board">
+                <span>
+                    <img src="images/paint.png" alt="" srcset="" className="picture" />
                     <Title subTitle='drawing Pad' title='Learn How to Draw' />
+                    <img src="images/eraser.png" alt="" srcset="" className="picture" />
+                    </span>    
+                    
             <canvas
                 className="canvas"
                 ref={canvasRef}
