@@ -1,22 +1,23 @@
 import "./Play.css"
 import React from 'react'
+import Title from "./Title"
+import { Card } from "./Card"
 
 
 export const Play = () => {
   return (
-    <div className='display'>
+    <div >
+      <Title subTitle='holiday activities' title='Learn How to Draw' />
 
-        
-        <img src="images/1.svg" alt="" />
-        <img src="images/2.svg" alt="" />
-        <img src="images/3.svg" alt="" />
-        <img src="images/A.svg" alt="" />
-        <img src="images/B.svg" alt="" />
-        <img src="images/C.svg" alt="" />
-        <img src="images/D.svg" alt="" />
-        <img src="images/E.svg" alt="" />
-        <img src="images/boat.svg" alt="" />
-       
+      <div className="play">
+
+      <Card image={<img src="images/circle.png" alt="portrait" srcset="" className='activity'/>} name="KAYAMBA"  say='Join the Kayamba program that gives your child to learn a music instrument of choice.'/>
+      <Card image={<img src="images/square.png" alt="portrait" srcset="" className='activity'/>} name="NZOORI"  say='Join the Nzoori program that allows your child to learn an international language and broaden their language knowledge..'/>
+      <Card image={<img src="images/triangle.png" alt="portrait" srcset="" className='activity'/>} name="MAKASI"  say='Join the Makasi program that utilizes your childs creativity in the art of crafting.'/>
+
+      
+      </div>
+ 
     </div>
   )
 }

@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from "react";
 import './Draw.css'
+import Title from "./Title";
 
 function Draw() {
     const [mouseData, setMouseData] = useState({ x: 0, y: 0 });
@@ -42,6 +43,7 @@ function Draw() {
 
     return (
         <div className="board">
+                    <Title subTitle='drawing Pad' title='Learn How to Draw' />
             <canvas
                 className="canvas"
                 ref={canvasRef}

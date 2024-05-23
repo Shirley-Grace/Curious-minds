@@ -33,6 +33,7 @@ function App() {
         <About />
         <Draw/>
         <Learn/>
+        <Play/>
 
         <Title subTitle='Testimonials' title='What Clients Think of Us' />
         <Testimonials />

@@ -1,11 +1,16 @@
-.display{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    
+.play{
+    display: flex;
+    justify-content: space-around;
+    margin: 5% auto;
+    height: 90%;
+
 }
-.display img{
-    margin: 20px;
-    border: 2px solid;
-    width: 400px;
-    height: 400px;
+.play img{
+    width: 200px;
+    height: 150px;
+    margin: 10px;
+
+}
+.music{
+    height: 450px;
 }

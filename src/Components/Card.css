@@ -3,7 +3,7 @@
     border: 3px solid;
     width:250px;
     height:450px;
-    background: rgba(122, 241, 67, 0.678);
+    background: mediumaquamarine;
     align-items: center;
     display: grid;
     grid-template-rows: 10;
