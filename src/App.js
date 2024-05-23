@@ -1,8 +1,10 @@
 import './App.css';
 import About from './Components/About';
 import {Contact} from './Components/Contact';
+import Draw from './Components/Draw';
 import { Footer } from './Components/Footer';
 import Intro from './Components/Intro';
+import Learn from './Components/Learn';
 import Navbar from './Components/Navbar';
 import { Plan } from './Components/Plan';
 import { Play } from './Components/Play';
@@ -16,7 +18,7 @@ import Title from './Components/Title';
 
 function App() {
   return (
-    <div>
+    <div className='app'>
     
 
 
@@ -29,11 +31,12 @@ function App() {
 
         <Title subTitle='About us' title='Who Are We' />
         <About />
-
-        <Play/>
+        <Draw/>
+        <Learn/>
 
         <Title subTitle='Testimonials' title='What Clients Think of Us' />
         <Testimonials />
+
 
         <Title subTitle='Plans' title='Offers and Packages' />
         <Plan/>

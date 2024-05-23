@@ -1,5 +1,5 @@
-import React from 'react'
 import "./Play.css"
+import React from 'react'
 
 
 export const Play = () => {

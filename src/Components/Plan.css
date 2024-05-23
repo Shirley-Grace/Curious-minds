@@ -41,3 +41,37 @@ ul li{
     padding: 40px 20px;
     text-align: center;
 }
+
+
+
+
+@media(max-width: 1000px){
+    .plans{
+   
+        display: grid;
+        align-items: center;
+        margin: 40px;
+        font-size: 15px;
+    }
+    .basic{
+        display: grid;
+         background-color: rgba(124, 104, 238, 0.568);
+        height: 360px;
+        padding: 20px 20px;
+        margin-bottom: 10px;
+    }
+    .pro{
+        display: grid;
+        background-color: rgba(124, 104, 238, 0.568);
+        height: 360px;
+        padding: 20px 20px;
+        margin-bottom: 10px;
+    }
+    .premium{
+        display: grid;
+         background-color: rgba(124, 104, 238, 0.568);
+        height: 360px;
+        padding: 20px 20px;
+    }
+
+}

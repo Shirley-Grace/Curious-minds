@@ -1,12 +1,12 @@
-import './Draw.css'
 import { useEffect, useRef, useState } from "react";
+import './Draw.css'
 
 function Draw() {
     const [mouseData, setMouseData] = useState({ x: 0, y: 0 });
     const canvasRef = useRef(null);
     const [canvasCTX, setCanvasCTX] = useState(null);
-    const [color, setColor] = useState("#000000");
-    const [size, setSize] = useState(10);
+    const [color, setColor] = useState("#FD5ECA");
+    const [size, setSize] = useState(15);
 
     useEffect(() => {
         const canvas = canvasRef.current;
@@ -41,19 +41,24 @@ function Draw() {
     };
 
     return (
-        <div className='board'>
-          <h1>
-            LETS DRAW!!!
-          </h1>
+        <div className="board">
             <canvas
+            className="canvas"
                 ref={canvasRef}
                 onMouseEnter={(e) => SetPos(e)}
                 onMouseMove={(e) => SetPos(e)}
                 onMouseDown={(e) => SetPos(e)}
                 onMouseMove={(e) => Draw(e)}
+                onTouchStart={(e) => SetPos(e)}
+                onTouchMove={(e) => SetPos(e)}
+                onTouchMove={(e) => Draw(e)}
+                onTouchEnd={(e) => SetPos(e)}
             ></canvas>
 
-            <div className="controls">
+            <div
+                className="controls"
+             
+            >
                 <input
                     type="range"
                     value={size}
@@ -70,6 +75,7 @@ function Draw() {
                     }}
                 />
                 <button
+                className="btn"
                     onClick={() => {
                         const ctx = canvasCTX;
                         ctx.clearRect(

@@ -1,27 +1,10 @@
 .testimonial{
     margin: 50px auto;
 }
-.next{
-    position: absolute;
-    top: 50%;
-    right: 0;
-    padding: 15px;
-    width: 75px;
-    height: 75px;
-    cursor: pointer;
-}
-.prev{
-    position: absolute;
-    top: 50%;
-    left: 0;
-    padding: 15px;
-    width: 75px;
-    height: 75px;
-    cursor: pointer;
-}
+
 .list{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 75px auto;
     justify-items: center;
 }
@@ -30,4 +13,28 @@
     height: 250px;
     border-top-left-radius: 45px;
     border: 10px solid white;
+}
+
+@media(max-width:1070px){
+.list{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin: 40px auto;
+
+}
+.testimonials{
+    margin: 2% auto;
+}
+
+
+
+}
+@media(max-width:850px){
+    #card1,#card2,#card3{
+        display: none;
+    }
+    .testimonials{
+        margin: 1% auto;
+    }
+
 }

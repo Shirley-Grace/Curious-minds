@@ -1,0 +1,37 @@
+.tools img{
+    width: 40px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+.learn{
+    display: flex;
+}
+ul li{
+    list-style: none;
+}
+
+.tools .row{
+    margin-bottom: 20px;
+}
+
+.tools{
+    width: 15%;
+    background-color: rgb(250, 201, 242);
+    border-radius: 5px 45px 5px 5px;
+    margin-left: 3%;
+    padding: 25px;
+}
+
+.drawing-board{
+    background: url("lettera.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    border-radius: 45px;
+    border: 3px solid;
+    width: 70%;
+    margin-left: 2%;
+}
+
+
